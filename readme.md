@@ -87,7 +87,7 @@ Everything is built from scratch using native web technologies — no frameworks
 
 ## 📦 Made By
 
-- **:octocat:[GitHub](https://github.com/abh3shek)**
+- **:octocat: [GitHub](https://github.com/abh3shek)**
 
 ## 🙌 Final Note
 
