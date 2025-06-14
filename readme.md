@@ -30,7 +30,7 @@ This app works even without internet after the first visit, auto-saves your resu
 ### ✅ 4. Export to PDF
 
 - Uses `html2pdf.js` to convert the preview section to a **downloadable PDF**
-- Triggered with `Export` button (Phase 2C)
+- Triggered with `Finish & Export` button
 - PDF is clean, raw, and includes all user data
 
 ### ✅ 5. Offline-First Support with Service Workers
@@ -87,7 +87,7 @@ Everything is built from scratch using native web technologies — no frameworks
 
 ## 📦 Made By
 
-- **[GitHub Repository](https://github.com/abh3shek)**
+- **[GitHub](https://github.com/abh3shek)**
 
 ## 🙌 Final Note
 
