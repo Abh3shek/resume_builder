@@ -1,0 +1,198 @@
+/* General Page Styles */
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Onboarding Container */
+#onboarding {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 90%;
+  padding: 2rem;
+  position: relative;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5rem 0;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.nav-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.step {
+  display: none;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.step.active {
+  display: block;
+}
+
+/* Progress Bar */
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6px;
+  background: #ddd;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #007bff;
+  width: 0%;
+  transition: width 0.4s ease;
+}
+
+/* Hide onboarding & progress by default */
+#onboarding,
+.progress {
+  display: none;
+}
+
+/* Show onboarding when active */
+#onboarding.active,
+.progress.active {
+  display: block;
+}
+
+/* Landing page */
+#landing {
+  text-align: center;
+  padding: 3rem;
+}
+
+#landing h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#landing p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#landing button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+}
+
+.resume {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  color: #333;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume header {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.resume h1 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.resume h2 {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #005a9c;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.2rem;
+}
+
+.resume ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.resume-buttons {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.resume-buttons button {
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background: #005a9c;
+  color: white;
+  border-radius: 4px;
+}
+
+.resume-buttons button:hover {
+  background: #00447c;
+}
+
+#preview {
+  width: 800px; /* or 210mm */
+  margin: auto;
+  padding: 40px;
+  background: white;
+  color: black;
+}
+
+#preview * {
+  max-width: 100%;
+  word-break: break-word;
+}
+
+/* Keep the rest of your styles the same */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
