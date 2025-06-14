@@ -6,7 +6,7 @@ This app works even without internet after the first visit, auto-saves your resu
 
 ---
 
-## 📌 Features Implemented (Phase 1 & 2)
+## 📌 Features Implemented
 
 ### ✅ 1. Landing + Onboarding Flow
 
